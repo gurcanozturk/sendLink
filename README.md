@@ -1,5 +1,5 @@
 # sendLink
-Google Chrome Extension to post actual tab URL to web service/API 
+Google Chrome extension to send the active tab URL to remote web service/API 
 
 - Unzip compressed file
 - Edit manifest.json and request.js files and replace WEB_PAGE with your web service/API URL.
