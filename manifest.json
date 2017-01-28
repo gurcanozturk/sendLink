@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "sendLink",
+  "description": "Send the current URL to web service API",
+  "version": "0.1",
+  "permissions": [
+    "http://WEB_PAGE/*",
+    "tabs"
+  ],
+  "background": { "scripts": ["request.js"] },
+  "browser_action": {
+    "name": "Click to send this URL to web service/API"
+  },
+  "browser_action": {
+      "default_icon": {
+         "16":  "images/icon_16.png",
+         "19":  "images/icon_19.png",
+         "38":  "images/icon_38.png",
+         "48":  "images/icon_48.png",
+         "128": "images/icon_128.png"
+      }
+  }
+}
